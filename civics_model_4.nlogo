@@ -315,7 +315,7 @@ to adjust-ideology
     if num_assessed_issues != 0 [
       set assessment assessment / num_assessed_issues
       set citizen_satisfaction citizen_satisfaction + assessment
-      print citizen_satisfaction
+;      print citizen_satisfaction
 
       ; move towards (if positive) or away from (if negative) the position of the majority party
       face majority_party
